@@ -5,15 +5,15 @@ public class Cliente {
     public String email;
     public int idCliente;
     public int fechaRegistro;
-    public int Cantautos;
+    public int CantAutos;
 
 
-    public Cliente( String email, int idCliente, int fechaRegistro, int Cantautos) {
+    public Cliente( String email, int idCliente, int fechaRegistro, int CantAutos) {
 
         this.email = email;
         this.idCliente = idCliente;
         this.fechaRegistro = fechaRegistro;
-        this.Cantautos = Cantautos;
+        this.CantAutos = CantAutos;
     }
 
     public Turno SacaTurno(Turno turno) {
@@ -46,8 +46,8 @@ public class Cliente {
     public int getfechaRegistro() { return fechaRegistro; }
     public void setFechaRegistro(int fechaRegistro) { this.fechaRegistro = fechaRegistro; }
 
-    public int getCantautos() { return Cantautos; }
-    public void setCantautos(int Cantautos) { this.Cantautos = Cantautos; }
+    public int getCantAutos() { return CantAutos; }
+    public void setCantAutos(int CantAutos) { this.CantAutos = CantAutos; }
 }
 
 
